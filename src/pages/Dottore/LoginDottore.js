@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Button, Form, } from 'react-bootstrap'
-import { Redirect, withRouter } from 'react-router'
+import {  withRouter } from 'react-router'
 import { useHistory } from "react-router-dom";
 import './../styles/LoginPaziente.css'
 
@@ -16,7 +16,7 @@ export default withRouter(function LoginDottore() {
 
     function handleSubmit(event) {
         event.preventDefault();
-        return <Redirect to="/"></Redirect>
+        
     }
 
     function singIn(event){

@@ -7,7 +7,7 @@ import ListaMedicine from './pages/Paziente/ListaMedicine';
 import LoginPaziente from './pages/Paziente/LoginPaziente';
 import Medicina from './pages/Medicina';
 import MessaggiPaziente from './pages/Paziente/MessaggiPaziente';
-import ModificaProfilo from './pages/Paziente/ModificaProfiloPaziente';
+import ModificaProfiloPaziente from './pages/Paziente/ModificaProfiloPaziente';
 import PromozioniFarmacia from './pages/Paziente/PromozioniFarmacia';
 import LoginDottore from './pages/Dottore/LoginDottore'
 import HomeDottore from './pages/Dottore/HomeDottore'
@@ -21,7 +21,7 @@ export default function App() {
   return (
     <Router>
       <Switch>
-       <Route path="/ModificaProfilo" component={ModificaProfilo}/>
+       <Route path="/ModificaProfiloPaziente" component={ModificaProfiloPaziente}/>
         <Route path="/ListaMedicine" component={ListaMedicine}/>
         <Route path="/PromozioniFarmacia" component={PromozioniFarmacia}/>
         <Route path="/MessaggiPaziente" component={MessaggiPaziente}/>
